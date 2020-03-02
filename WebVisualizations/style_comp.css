@@ -15,7 +15,6 @@ h2{
 }
 
 
-
 h2{
 	color: #5bc0de;
 }
@@ -40,14 +39,13 @@ img:hover{
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: center;
-	height: 50vh;
 }
 
 /*GRID for images*/
 .grid-wrapper{
 	display: grid;
 	grid-gap: 20px;
-	grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+	grid-template-columns: repeat(auto-fill, minmax(350px, 2fr));
 	
 }
 
@@ -60,4 +58,8 @@ h5{
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: center;
+}
+
+footer{
+	text-align: center;
 }

@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>HOME</title>
-	<link rel="stylesheet" type="text/css" href="style_index.css"> 
+	<link rel="stylesheet" type="text/css" href="style_visual.css"> 
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Fredoka+One&display=swap" rel="stylesheet">
 	<!-- <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"> -->
@@ -41,25 +41,18 @@
 
 	<div class="container">
 		<div class='cont_left'>
-		  <h2>Summary: Latitude vs. X</h2>
+		  <h2>Max Temperature</h2>
 		  <hr>
-		  <p><strong><span>This project</span></strong> was aimed at creating a Python script to visualize the weather of 500+ cities across the World of varying distance from the equator. The data was pulled from OpenWeatherMap using API. The following analysis have been conducted and visualized:</p>
-		  <ul>
-		  	<li>Temperature (F) vs. Latitude</li>
-			<li>Humidity (%) vs. Latitude</li>
-			<li>Cloudiness (%) vs. Latitude</li>
-			<li>Wind Speed (mph) vs. Latitude</li>
-		  </ul><br/>
-		  <img src="./Resources/assets/images/lat_temp.png">
+		  <img src="./Resources/assets/images/lat_temp.png" class="rounded mx-auto d-block">
 		  <p>These and other weather analysis was used to determine the location of the upcoming vacation. This web-page provides the source data of the cities in table format and the visualization of different weather parameters against Latitude. </p>
 		</div>
-		<div class="cont_right">
+		<div class="cont_right grid-wrapper">
 			<h3>Visualizations</h3>
 			<hr>
-			<img src="./Resources/assets/images/lat_temp.png">
-			<img src="./Resources/assets/images/lat_hum.png">
-			<img src="./Resources/assets/images/lat_cloud.png">
-			<img src="./Resources/assets/images/lat_wind.png">
+			<div class="box zone"><img src="./Resources/assets/images/lat_temp.png"></div>
+			<div class="box-zone"><img src="./Resources/assets/images/lat_hum.png"></div>
+			<div class="box-zone"><img src="./Resources/assets/images/lat_cloud.png"></div>
+			<div class="boz zone"><img src="./Resources/assets/images/lat_wind.png"></div>
 		</div>
 
 	</div>
