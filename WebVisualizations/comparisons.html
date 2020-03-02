@@ -9,7 +9,7 @@
 </head>
 <body>
 
-	<nav class="navbar navbar-expand-lg navbar-light bg-info">
+	<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-info">
 	  <a class="navbar-brand" href="index.html">LATTITUDE</a>
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 	   <span class="navbar-toggler-icon"></span>
@@ -39,28 +39,21 @@
 	  </div>
 	</nav>
 
-	<div class="container">
-		<section class="head">
-			<h2>Comparison: Latitude vs. X</h2>
-			<hr>
-			<br>
-			<p><strong>This page compares provides visualization of comparison of  weather parameters against latitude.</strong></p><br>
-		</section> 
+	<div class="container zone">
+		<h2>Comparison: Latitude vs. X</h2><hr>
+		<hr>
+		<p><strong>This page compares provides visualization of comparison of  weather parameters against latitude.</strong></p><br>
 
-		<div class="visual">
-			<h5>vs. Max Temperature</h5>
-			<img src="./Resources/assets/images/lat_temp.png">
-			<br>
-			<h5>vs. Humidity</h5>
-			<img src="./Resources/assets/images/lat_hum.png">
-			<br>
-			<h5>vs. Cloudiness</h5>
-			<img src="./Resources/assets/images/lat_cloud.png">
-			<br>
-			<h5>vs. Wind Speed</h5>
-			<img src="./Resources/assets/images/lat_wind.png">
-			<br>
-		</div>
+	<div class="zone grid-wrapper">
+		
+		<div class="box zone"><h5>vs. Max Temperature</h5><img src="./Resources/assets/images/lat_temp.png"></div>
+		
+		<div class="box zone"><h5>vs. Humidity</h5><img src="./Resources/assets/images/lat_hum.png"></div>
+		
+		<div class="box zone"><h5>vs. Cloudiness</h5><img src="./Resources/assets/images/lat_cloud.png"></div>
+		
+		<div class="box zone"><h5>vs. Wind Speed</h5><img src="./Resources/assets/images/lat_wind.png"></div>
+	</div>
 
 
 

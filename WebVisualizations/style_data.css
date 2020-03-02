@@ -30,6 +30,7 @@ body{
 	display: grid;
 	grid-gap: 20px;
 	grid-template-columns: 1fr;
+	height: 50vh;
 }
 
 .dataframe{
