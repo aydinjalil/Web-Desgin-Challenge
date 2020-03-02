@@ -1,0 +1,33 @@
+
+.navbar{
+	font-family: Fredoka One, Georgia;
+	/*font-family: 'Yeon Sung', Georgia;*/
+	background-color: #9ABD59;
+}
+.navbar-collapse{
+	display: flex;
+	justify-content: flex-end;
+}
+
+
+.visual{
+	text-align: center;
+	color: #5bc0de;
+}
+
+h2{
+	color: #5bc0de;
+}
+
+img{
+	heigh: 300px;
+	width: 500px;
+	border: 1px solid #ddd;
+	float: center;
+	transition: all 300ms;
+	margin:0px;
+}
+
+img:hover{
+	transform: scale(1.1);
+}
