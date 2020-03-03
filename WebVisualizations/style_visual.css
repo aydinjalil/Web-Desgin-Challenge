@@ -21,13 +21,16 @@ body{
 .wrapper{
 	display: grid;
 	margin: 10px;
-	grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+	grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
 	grid-gap: 10px;
 	/*grid-auto-rows: minmax(100px, auto)*/
 	}
 
+
 #column1{
 	border: 1px solid grey;
+	align-items: center;
+	margin-left: auto;
 	    /*grid-column: 1/2;*/
 	}
 #column1 img{
@@ -37,6 +40,7 @@ body{
 
 #column2{
 	border: 1px solid grey;
+	align-items: center;
 	    /*grid-column: 2/2*/
 	}
 

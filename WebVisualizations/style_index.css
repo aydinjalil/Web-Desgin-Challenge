@@ -31,6 +31,14 @@
 	    /*grid-column: 2/2*/
 	}
 
+#column2 img{
+	/*width:300px;
+	height: 200px;*/
+
+	grid-template-columns: repeat(2, 1fr 1fr);
+	margin-left: 0px;
+}
+
 
 h2{
 	color: #5bc0de;
