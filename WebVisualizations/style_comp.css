@@ -1,9 +1,4 @@
 
-h2{
-	font-family: 'Yeon Sung', Georgia;
-	color: #5bc0de;
-}
-
 .navbar{
 	font-family: Fredoka One, Georgia;
 	/*font-family: 'Yeon Sung', Georgia;*/
@@ -12,25 +7,6 @@ h2{
 .navbar-collapse{
 	display: flex;
 	justify-content: flex-end;
-}
-
-
-h2{
-	color: #5bc0de;
-}
-
-
-img{
-	heigh: 300px;
-	width: 500px;
-	border: 1px solid #ddd;
-	float: center;
-	transition: all 300ms;
-	margin:0px;
-}
-
-img:hover{
-	transform: scale(1.1);
 }
 
 .container{
@@ -52,6 +28,30 @@ img:hover{
 .box > img{
 	width: 100%;
 }
+
+h2{
+	font-family: 'Yeon Sung', Georgia;
+	color: #5bc0de;
+}
+
+p{
+	
+}
+
+img{
+	heigh: 300px;
+	width: 500px;
+	border: 1px solid #ddd;
+	float: center;
+	transition: all 300ms;
+	margin:0px;
+}
+
+img:hover{
+	transform: scale(1.1);
+}
+
+
 
 h5{
 	display: flex;

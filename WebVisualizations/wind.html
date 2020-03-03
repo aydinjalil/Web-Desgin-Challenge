@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>HOME</title>
+	<title>vs_WIND</title>
 	<link rel="stylesheet" type="text/css" href="style_visual.css"> 
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Fredoka+One&display=swap" rel="stylesheet">
@@ -39,23 +39,24 @@
 	  </div>
 	</nav>
 
-	<div class="container">
-		<div class='row'>
-			<div class="col col-sm-12 col-md-12 col-lg-6">
-			  <h2>vs. Wind Speed</h2>
+
+	<div class="wrapper">
+	    <div id="column1">
+	    	<h2>vs. Wind Speed</h2>
 			  <hr>
-			  <div class="temp_image"><img src="./Resources/assets/images/lat_wind.png"></div>
+			  <img src="./Resources/assets/images/lat_wind.png">
 			  <p>It looks like for the most part in the cities in our database the wind speed does not exceed 10 mph. Northern cities tend to have least favorable weather conditions and at and above 50 degrees North the winds get constantly higher. This is especially true for the Southern Hemisphere. Souther we go, greater the wind speed.</p>
-		  	</div>
-		  	<div class="col col-sm-12 col-md-12 col-lg-6">
-				<h2>Visualizations</h2>
+			  
+	    </div>
+	    <div id="column2">
+	    	<h2>Visualizations</h2>
+			<hr>
 				<hr>
 				<div class="image"><img src="./Resources/assets/images/lat_temp.png"></div>
 				<div class="image"><img src="./Resources/assets/images/lat_hum.png"></div>
 				<div class="image"><img src="./Resources/assets/images/lat_cloud.png"></div>
 				<div class="image wind"><img src="./Resources/assets/images/lat_wind.png"></div>
-			</div>
-		</div>
+	    </div>
 	</div>
 
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
