@@ -28,8 +28,10 @@ body{
 	padding-left:0px;
 	display: grid;
 	grid-gap: 20px;
+	text-align: center;
 	grid-template-columns: 2fr 1.7fr;
 }
+
 
 h2{
 	color: #5bc0de;
