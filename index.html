@@ -9,13 +9,13 @@
 </head>
 <body>
 
-	<nav class="navbar sitcky-top navbar-expand-lg navbar-light bg-info">
+	<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-info">
 	  <a class="navbar-brand" href="index.html">LATTITUDE</a>
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 	   <span class="navbar-toggler-icon"></span>
 	  </button>
 	  <div class="collapse navbar-collapse" id="navbarNavDropdown">
-	    <ul class="navbar-nav">
+	    <ul class="navbar-nav ml-auto">
 	 
 	      <li class="nav-item dropdown">
 	        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -39,33 +39,44 @@
 	  </div>
 	</nav>
 
-	<div class="wrapper">
-	    <div id="column1">
-	    	<h2>Summary: Latitude vs. X</h2>
-			  <hr>
-			  <p><strong><span>This project</span></strong> was aimed at creating a Python script to visualize the weather of 500+ cities across the World of varying distance from the equator. The data was pulled from OpenWeatherMap using API. The following analysis have been conducted and visualized:</p>
-			  <ul>
-			  	<li>Temperature (F) vs. Latitude</li>
-				<li>Humidity (%) vs. Latitude</li>
-				<li>Cloudiness (%) vs. Latitude</li>
-				<li>Wind Speed (mph) vs. Latitude</li>
-			  </ul><br/>
-			  <img src="./Resources/assets/images/lat_temp.png">
-			  <p>These and other weather analysis was used to determine the location of the upcoming vacation. This web-page provides the source data of the cities in table format and the visualization of different weather parameters against Latitude. </p>
+	<div class="container row">
+	    <div id="column1" class="col-lg-6">
+	    	<div class="innerdiv">
+		    	<h2>Summary: Latitude vs. X</h2>
+				  <hr>
+				  <p><strong><span>This project</span></strong> was aimed at creating a Python script to visualize the weather of 500+ cities across the World of varying distance from the equator. The data was pulled from OpenWeatherMap using API. The following analysis have been conducted and visualized:</p>
+				  <ul>
+				  	<li>Temperature (F) vs. Latitude</li>
+					<li>Humidity (%) vs. Latitude</li>
+					<li>Cloudiness (%) vs. Latitude</li>
+					<li>Wind Speed (mph) vs. Latitude</li>
+				  </ul><br/>
+				  <div class="col-sm-6"><img class="img-fluid" src="./Resources/assets/images/lat_temp.png"></div>
+				  
+				  <p>These and other weather analysis was used to determine the location of the upcoming vacation. This web-page provides the source data of the cities in table format and the visualization of different weather parameters against Latitude. </p>
+			</div>
 	    </div>
-	    <div id="column2">
+	    <div id="column2" class="col-md-6">
+	    	<div class="innerdiv">
 	    	<h2>Visualizations</h2>
 			<hr>
-			<img src="./Resources/assets/images/lat_temp.png">
-			<img src="./Resources/assets/images/lat_hum.png">
-			<img src="./Resources/assets/images/lat_cloud.png">
-			<img src="./Resources/assets/images/lat_wind.png">
-	    </div>
+			<div class="row">
+				<div class="col-sm-6">
+					<img class="img-fluid" src="./Resources/assets/images/lat_temp.png">
+				</div>
+				<div class="col-sm-6">
+					<img class="img-fluid" src="./Resources/assets/images/lat_hum.png">
+				</div>
+				<div class="col-sm-6">
+					<img class="img-fluid" src="./Resources/assets/images/lat_cloud.png">
+				</div>
+				<div class="col-sm-6">
+					<img class="img-fluid" src="./Resources/assets/images/lat_wind.png">
+				</div>
+			</div>
+		</div>
+			
 	</div>
-
-	</div>
-
-
 
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>

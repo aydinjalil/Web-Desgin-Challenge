@@ -1,80 +1,8 @@
 
-
-
-.navbar{
-	font-family: Fredoka One, Georgia;
-	/*font-family: 'Yeon Sung', Georgia;*/
-	background-color: #9ABD59;
-}
-.navbar-collapse{
-	display: flex;
-	justify-content: flex-end;
+.innerdiv{
+	border: 2px solid grey;
 }
 
-.wrapper{
-	display: grid;
-	margin: 10px;
-	grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-	grid-gap: 10px;
-	/*grid-auto-rows: minmax(100px, auto)*/
-	}
-
-#column1{
-	border: 1px solid grey;
-	    /*grid-column: 1/2;*/
-	}
-
-
-#column2{
-	/*background-color: grey;*/
-	border: 1px solid grey;
-	    /*grid-column: 2/2*/
-	}
-
-#column2 img{
-	/*width:300px;
-	height: 200px;*/
-
-	grid-template-columns: repeat(2, 1fr 1fr);
-	margin-left: 0px;
-}
-
-
-h2{
-	color: #5bc0de;
-}
-
-
-hr{
-	margin: 5%;
-}
-
-h1{
-	font-family: 'Yeon Sung', Georgia;
-}
-
-body{
-	background-color: grey;
-	margin:0px;
-}
-
-
-img{
-
-	border: 1px solid #ddd;
-	/*width: 100%;*/
-	width:200px;
-	height: 150px;
-	float: left;
-	transition: all 300ms;
-	margin:5px;
-}
-
-img:hover{
-	transform: scale(1.1);
-}
-
-
-span{
-	font-size: 1.5rem
+.container{
+	margin-top: 5px;
 }

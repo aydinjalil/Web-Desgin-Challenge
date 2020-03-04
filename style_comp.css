@@ -1,14 +1,4 @@
 
-.navbar{
-	font-family: Fredoka One, Georgia;
-	/*font-family: 'Yeon Sung', Georgia;*/
-	background-color: #9ABD59;
-}
-.navbar-collapse{
-	display: flex;
-	justify-content: flex-end;
-}
-
 .container{
 	color: #5bc0de;
 	/*display:flex;*/

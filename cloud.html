@@ -15,7 +15,7 @@
 	   <span class="navbar-toggler-icon"></span>
 	  </button>
 	  <div class="collapse navbar-collapse" id="navbarNavDropdown">
-	    <ul class="navbar-nav">
+	    <ul class="navbar-nav ml-auto">
 	 
 	      <li class="nav-item dropdown">
 	        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -40,22 +40,35 @@
 	</nav>
 
 
-	<div class="wrapper">
-	    <div id="column1">
-	    	<h2>vs. Cloudiness</h2>
-			  <hr>
-			  <img src="./Resources/assets/images/lat_cloud.png">
-			  <p>There is a weak correlation between Cloudiness and the Latitude. Statistically Cloudiness is highest around 60 degrees South but the most of it is covered with Ocean and that information is not available in our dataset. We may want to choose a placce for our next vacation with less clouds.</p>
-			  
+	<div class="container row">
+	    <div id="column1" class="col-lg-6">
+	    	<div class="innerdiv">
+		    	<h2>vs. Cloudiness</h2>
+				  <hr>
+				  <div class="col-md-12"><img class="img-fluid" src="./Resources/assets/images/lat_cloud.png"></div>
+				  <p>There is a weak correlation between Cloudiness and the Latitude. Statistically Cloudiness is highest around 60 degrees South but the most of it is covered with Ocean and that information is not available in our dataset. We may want to choose a placce for our next vacation with less clouds.</p>
+				  
+			</div>
 	    </div>
-	    <div id="column2">
+	    <div id="column2" class="col-lg-6">
+	    	<div class="innerdiv">
 	    	<h2>Visualizations</h2>
 			<hr>
-				<div class="image"><img src="./Resources/assets/images/lat_temp.png"></div>
-				<div class="image"><img src="./Resources/assets/images/lat_hum.png"></div>
-				<div class="image cloud"><img src="./Resources/assets/images/lat_cloud.png"></div>
-				<div class="image"><img src="./Resources/assets/images/lat_wind.png"></div>
-	    </div>
+			<div class="row">
+				<div class="col-sm-6">
+					<img class="img-fluid" src="./Resources/assets/images/lat_temp.png">
+				</div>
+				<div class="col-sm-6">
+					<img class="img-fluid" src="./Resources/assets/images/lat_hum.png">
+				</div>
+				<div class="add_border col-sm-6">
+					<img class="img-fluid" src="./Resources/assets/images/lat_cloud.png">
+				</div>
+				<div class="col-sm-6">
+					<img class="img-fluid" src="./Resources/assets/images/lat_wind.png">
+				</div>
+			</div>
+		</div>	
 	</div>
 
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

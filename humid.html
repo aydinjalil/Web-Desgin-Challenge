@@ -15,7 +15,7 @@
 	   <span class="navbar-toggler-icon"></span>
 	  </button>
 	  <div class="collapse navbar-collapse" id="navbarNavDropdown">
-	    <ul class="navbar-nav">
+	    <ul class="navbar-nav ml-auto">
 	 
 	      <li class="nav-item dropdown">
 	        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -39,7 +39,7 @@
 	  </div>
 	</nav>
 
-	<div class="wrapper">
+	<!-- <div class="wrapper">
 	    <div id="column1">
 	    	<h2>vs. Humidity</h2>
 			  <hr>
@@ -55,6 +55,37 @@
 				<div class="image"><img src="./Resources/assets/images/lat_cloud.png"></div>
 				<div class="image"><img src="./Resources/assets/images/lat_wind.png"></div>
 	    </div>
+	</div> -->
+
+	<div class="container row">
+	    <div id="column1" class="col-lg-6">
+	    	<div class="innerdiv">
+		    	<h2>vs. Humidity</h2>
+				  <hr>
+				  <div class="col-md-12"><img class="img-fluid" src="./Resources/assets/images/lat_hum.png"></div>
+				  <p>Although Latitude vs. Humidity does not show clear correlation the further analysis based on the Hemispheres show weak correlation. In North Hemisphere, closer to the equator the less the humidity. There is less data for the South Hemisphere since for the most part it is covered with Ocean but from the available data we can see that the humidity is more or less identical in both Hemispheres with some outliers between Lat [-20, -40]</p>
+				  
+			</div>
+	    </div>
+	    <div id="column2" class="col-lg-6">
+	    	<div class="innerdiv">
+	    	<h2>Visualizations</h2>
+			<hr>
+			<div class="row">
+				<div class="col-sm-6">
+					<img class="img-fluid" src="./Resources/assets/images/lat_temp.png">
+				</div>
+				<div class="add_border col-sm-6">
+					<img class="img-fluid" src="./Resources/assets/images/lat_hum.png">
+				</div>
+				<div class="col-sm-6">
+					<img class="img-fluid" src="./Resources/assets/images/lat_cloud.png">
+				</div>
+				<div class="col-sm-6">
+					<img class="img-fluid" src="./Resources/assets/images/lat_wind.png">
+				</div>
+			</div>
+		</div>	
 	</div>
 
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
