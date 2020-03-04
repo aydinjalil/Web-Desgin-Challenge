@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>HOME</title>
-	<link rel="stylesheet" type="text/css" href="style_index.css"> 
+	<title>vs_CLOUD</title>
+	<link rel="stylesheet" type="text/css" href="style_visual.css"> 
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Fredoka+One&display=swap" rel="stylesheet">
 	<!-- <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"> -->
 </head>
 <body>
 
-	<nav class="navbar navbar-expand-lg navbar-light bg-info">
+	<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-info">
 	  <a class="navbar-brand" href="index.html">LATTITUDE</a>
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 	   <span class="navbar-toggler-icon"></span>
@@ -39,33 +39,24 @@
 	  </div>
 	</nav>
 
+
 	<div class="wrapper">
 	    <div id="column1">
-	    	<h2>Summary: Latitude vs. X</h2>
+	    	<h2>vs. Cloudiness</h2>
 			  <hr>
-			  <p><strong><span>This project</span></strong> was aimed at creating a Python script to visualize the weather of 500+ cities across the World of varying distance from the equator. The data was pulled from OpenWeatherMap using API. The following analysis have been conducted and visualized:</p>
-			  <ul>
-			  	<li>Temperature (F) vs. Latitude</li>
-				<li>Humidity (%) vs. Latitude</li>
-				<li>Cloudiness (%) vs. Latitude</li>
-				<li>Wind Speed (mph) vs. Latitude</li>
-			  </ul><br/>
-			  <img src="./Resources/assets/images/lat_temp.png">
-			  <p>These and other weather analysis was used to determine the location of the upcoming vacation. This web-page provides the source data of the cities in table format and the visualization of different weather parameters against Latitude. </p>
+			  <img src="./Resources/assets/images/lat_cloud.png">
+			  <p>There is a weak correlation between Cloudiness and the Latitude. Statistically Cloudiness is highest around 60 degrees South but the most of it is covered with Ocean and that information is not available in our dataset. We may want to choose a placce for our next vacation with less clouds.</p>
+			  
 	    </div>
 	    <div id="column2">
 	    	<h2>Visualizations</h2>
 			<hr>
-			<img src="./Resources/assets/images/lat_temp.png">
-			<img src="./Resources/assets/images/lat_hum.png">
-			<img src="./Resources/assets/images/lat_cloud.png">
-			<img src="./Resources/assets/images/lat_wind.png">
+				<div class="image"><img src="./Resources/assets/images/lat_temp.png"></div>
+				<div class="image"><img src="./Resources/assets/images/lat_hum.png"></div>
+				<div class="image cloud"><img src="./Resources/assets/images/lat_cloud.png"></div>
+				<div class="image"><img src="./Resources/assets/images/lat_wind.png"></div>
 	    </div>
 	</div>
-
-	</div>
-
-
 
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>

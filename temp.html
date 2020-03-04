@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>vs_HUMID</title>
+	<title>vs_TEMP</title>
 	<link rel="stylesheet" type="text/css" href="style_visual.css"> 
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Fredoka+One&display=swap" rel="stylesheet">
@@ -9,7 +9,7 @@
 </head>
 <body>
 
-	<nav class="navbar navbar-expand-lg navbar-light bg-info">
+	<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-info">
 	  <a class="navbar-brand" href="index.html">LATTITUDE</a>
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 	   <span class="navbar-toggler-icon"></span>
@@ -41,19 +41,19 @@
 
 	<div class="wrapper">
 	    <div id="column1">
-	    	<h2>vs. Humidity</h2>
+	    	<h2>vs. Max Temperature</h2>
 			  <hr>
-			  <img src="./Resources/assets/images/lat_hum.png">
-			  <p>Although Latitude vs. Humidity does not show clear correlation the further analysis based on the Hemispheres show weak correlation. In North Hemisphere, closer to the equator the less the humidity. There is less data for the South Hemisphere since for the most part it is covered with Ocean but from the available data we can see that the humidity is more or less identical in both Hemispheres with some outliers between Lat [-20, -40]</p>
+			  <img src="./Resources/assets/images/lat_temp.png">
+			  <p>As could be imagined the weather gets warmer toward the equator if approached from North and colder towards Northern Hemisphere. Because the wehather analysis was conducted in winter time, it is summer in Southern Hemisphere and therefore the weather does not get colder moving to the South from the equator. </p>
 			  
 	    </div>
 	    <div id="column2">
 	    	<h2>Visualizations</h2>
 			<hr>
-				<div class="image"><img src="./Resources/assets/images/lat_temp.png"></div>
-				<div class="image hum"><img src="./Resources/assets/images/lat_hum.png"></div>
-				<div class="image"><img src="./Resources/assets/images/lat_cloud.png"></div>
-				<div class="image"><img src="./Resources/assets/images/lat_wind.png"></div>
+			<div class="image temp"><img src="./Resources/assets/images/lat_temp.png"></div>
+			<div class="image"><img src="./Resources/assets/images/lat_hum.png"></div>
+			<div class="image"><img src="./Resources/assets/images/lat_cloud.png"></div>
+			<div class="image"><img src="./Resources/assets/images/lat_wind.png"></div>
 	    </div>
 	</div>
 
